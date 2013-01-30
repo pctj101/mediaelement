@@ -132,7 +132,7 @@
 			// chromeless
 			if (_isChromeless) {
 				// _playerLoader.load(new URLRequest("http://www.youtube.com/apiplayer?version=3&controls=1&rel=0&showinfo=0&iv_load_policy=1"));
-				_playerLoader.load(new URLRequest("http://www.youtube.com/apiplayer?version=3&controls=1&rel=0&showinfo=0&iv_load_policy=1"));
+				_playerLoader.load(new URLRequest("http://www.youtube.com/apiplayer?version=3&controls=1&rel=0&showinfo=0&iv_load_policy=1&cc_load_policy=0"));
 				// _playerLoader.load(new URLRequest("http://www.youtube.com/apiplayer?version=3&controls=0&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0"));
 			}
 			
