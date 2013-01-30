@@ -481,6 +481,9 @@ mejs.HtmlMediaElementShim = {
 			'flashstreamer=' + options.flashStreamer,
 			'height=' + height];
 
+        if (options.disableYoutubeCaptions) {
+                initVars.push('cc_load_policy=0');
+        }
 		if (playback.url !== null) {
 			if (playback.method == 'flash') {
 				initVars.push('file=' + mejs.Utility.encodeUrl(playback.url));
